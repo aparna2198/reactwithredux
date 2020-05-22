@@ -1,0 +1,8 @@
+647154847154-drh9oupf7ijqlngijf6u3nrr9gjd88ge.apps.googleusercontent.com
+        // anytome our component rendered on to the screen we want to load up
+        // the client portion of the library
+        // window because this variable gapi is varible in our window scope 
+        // this is to load up the client portion of the library 
+        // it takes time for that library to reach over to google servers  AND DOWNLOAD additonal javascript code
+        // so we need to get  the call back as to when that portion is complete 
+        // "client:auth2" is a library

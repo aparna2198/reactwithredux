@@ -1,0 +1,21 @@
+code 1:
+    <form>
+            <Field name="Title" />
+            <Field name="description"/>
+      </form>
+error:Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined
+
+learning: field itself has  no idea how to render some type of input element on screen 
+so field doesnt know how to show a text input 
+it doesnt know how to show a checkbox/dropped down or anything 
+ It is just a component that is going to be a part of the system 
+ thats going to automatically handle  all of the forms
+ put together but it individually is not responsible for actually getting anything 
+
+BASICALLY TOGETHER WE WIN  KINDA SITUATION 
+
+solution: in order to show text input on screen we have  to assig a prop ot it called component
+component could be 1) react component 2) fucntion for the field to call 
+fucn needs to return some element that is going to be shown on the screen 
+
+    
