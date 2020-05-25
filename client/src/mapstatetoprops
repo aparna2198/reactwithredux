@@ -6,7 +6,7 @@ eventually shpow uo as props inside of our component
 
 
 
-called with all of the state inside of the redux store so thast 
+Called with all of the state inside of the redux store so thast 
 state is going to be isSignedIn here which is called using auth object 
 auth which is gapi.auth2.getAuthInstance.
 there 
